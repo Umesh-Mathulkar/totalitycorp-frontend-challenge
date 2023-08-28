@@ -11,14 +11,14 @@ const Categories = ({ data }: CategoriesProps) => {
   return (
     <Card>
       <div className="w-full">
-        <div className="grid grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 flex justify-center">
           {data.map(({ name, image }, index) => (
             <div key={index} className="text-center flex flex-col items-center">
                 <Link to={`/product-list/${name}`}>
-              <div className="flex justify-center w-[60px]">
+              <div className="flex justify-center h-[90px] w-[60px] items-center">
                 <img src={image} alt={name} />
               </div>
-              <p className="text-[18px] font-normal mt-2">{name}</p>
+              <p className="text-[18px] capitlised font-normal mt-2">{name}</p>
               </Link>
             </div>
           ))}
@@ -27,5 +27,6 @@ const Categories = ({ data }: CategoriesProps) => {
     </Card>
   );
 };
+
 
 export default Categories;

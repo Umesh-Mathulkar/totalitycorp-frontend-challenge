@@ -56,10 +56,9 @@ const ProductList = () => {
         </Card>
       </div>
       <div className="col-span-4">
-        <Card>
-          {/* Pass the filtered products to the Products component */}
+   
           <Products filteredProducts={filteredProducts} />
-        </Card>
+      
       </div>
     </div>
   );

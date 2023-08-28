@@ -34,7 +34,7 @@ const Login = () => {
 
     return (
         <div className="flex justify-center h-screen items-center">
-            <Card className="w-[400px] ">
+            <Card className="max-w-[400px] ">
                 <div>
                     <Header className="mb-3">Sign-In</Header>
                     <FormikForm fields={fields} onSubmit={handleSubmit} />

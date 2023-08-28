@@ -42,7 +42,7 @@ const Register = () => {
 
   return (
     <div className="flex justify-center h-screen items-center">
-      <Card className="w-[400px] ">
+      <Card className="max-w-[400px] ">
         <div>
           <Header className="mb-3">Register Now!</Header>
           <FormikForm fields={fields} onSubmit={handleSubmit} />
