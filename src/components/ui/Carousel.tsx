@@ -28,7 +28,7 @@ const Carousel = ({ images }: CarouselProps) => {
 
     return (
         <div
-            className="relative h-[100px] md:h-[250px] bg-gray-100"
+            className="relative h-[60px] md:h-[250px] bg-gray-100"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
         >
