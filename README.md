@@ -88,7 +88,7 @@ npm start
 
 This section provides information about the deployment of the e-commerce website.
 
-The application is deployed on Netlify at [link to deployed application]. The deployment process involved setting up continuous integration and continuous deployment (CI/CD) pipelines to automatically build and deploy the application whenever changes were pushed to the code repository.
+The application is deployed on Netlify at https://e-store-totality.netlify.app/. 
 
 ## Future Improvements
 
