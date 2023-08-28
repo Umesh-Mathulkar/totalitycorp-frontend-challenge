@@ -51,7 +51,7 @@ const Carousel = ({ images }: CarouselProps) => {
                     </div>
                 ))}
             </div>
-            <div className="absolute h-[100px] md:h-[250px] w-full flex items-center justify-between">
+            <div className="absolute h-[60px] md:h-[250px] w-full flex items-center justify-between">
                 <button
                     onClick={prevSlide}
                     className="text-xl opacity-40 hover:opacity-70 font-bold bg-gray-500 hover:bg-gray-700 text-white px-2 py-1 rounded"
